@@ -4,7 +4,7 @@
 
 	<settingsPane description="Here you can switch STweaks settings to be applyed on BOOT or not." name="Global BOOT Settings">
 
-		<spinner description="Master Switch, Load All settings from all TABS on boot or not! default is LOAD." name="Enable On Boot" action="generic_cortex /tmp/STweaks_boot_control">
+		<spinner description="Master Switch, Load All settings from all TABS on boot or not! default is LOAD." name="Enable On Boot" action="generic_cortex /tmp/stweaks_boot_control">
 			<spinnerItem name="Load all Settings on boot" value="yes"/> 
 			<spinnerItem name="Don't load all Settings on boot" value="no"/> 
 		</spinner>
